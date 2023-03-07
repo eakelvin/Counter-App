@@ -1,6 +1,12 @@
 import { Component, useState } from "react"
 
 class Count extends Component {
+    constructor() {
+        super()
+        this.state={
+            count:0
+        }
+    }
         state={count:0}
     
          res = () => {
